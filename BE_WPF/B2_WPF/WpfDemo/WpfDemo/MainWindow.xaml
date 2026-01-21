@@ -1,0 +1,113 @@
+﻿<Window x:Class="WpfDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="Style - Template - Trigger - DataTemplate"
+        Width="420"
+        Height="525">
+
+    <!-- ================== RESOURCES ================== -->
+    <Window.Resources>
+
+        <!-- 1️⃣ STYLE + TRIGGER cho Label (hover & disable) -->
+        <Style TargetType="Label">
+            <Setter Property="Background" Value="Blue"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Width" Value="140"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Margin" Value="5"/>
+
+            <Style.Triggers>
+                <!-- Hover đổi màu -->
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Orange"/>
+                </Trigger>
+                <!-- Disabled mờ -->
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Opacity" Value="0.5"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- 2️⃣ STYLE + CONTROL TEMPLATE + TRIGGER cho Button -->
+        <Style x:Key="RoundButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="140"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Background" Value="LightGray"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="20"
+                                Padding="10">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"
+                                              RecognizesAccessKey="True"/>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <!-- Hover đổi màu -->
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="Red"/>
+                            </Trigger>
+                            <!-- Nhấn đổi màu -->
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="DarkBlue"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- 3️⃣ DATA TEMPLATE cho ListBox (item là STRING) -->
+        <DataTemplate x:Key="SimpleItemTemplate">
+
+            <TextBlock Text="{Binding}" 
+                       FontSize="14" 
+                       FontFamily="Times New Roman"
+                       Foreground="red"/>
+        </DataTemplate>
+
+    </Window.Resources>
+
+    <!-- ================== UI ================== -->
+    <StackPanel Margin="20">
+
+        <TextBlock Text="1. Label dùng Style + Trigger"
+                   FontWeight="Bold"/>
+        <!-- Hover + disable demo -->
+        <Label Content="Hover me!" />
+        <Label Content="Disabled Label" IsEnabled="False"/>
+
+        <Separator Margin="10"/>
+
+        <TextBlock Text="2. Button dùng ControlTemplate + TemplateBinding"
+                   FontWeight="Bold"/>
+        <Button Content="Press me"
+                Style="{StaticResource RoundButtonStyle}"/>
+
+        <Separator Margin="10"/>
+
+        <TextBlock Text="3. ListBox dùng DataTemplate (string)"
+                   FontWeight="Bold"/>
+        <!--Style → thay đổi giao diện control tổng thể: ListBox background, BorderBrush, ScrollBar, v.v.
+
+ItemTemplate → thay đổi giao diện của từng item bên trong: TextBlock, Border, Image, v.v.-->
+        <ListBox ItemTemplate="{StaticResource SimpleItemTemplate}">
+            <ListBox.Items>
+                <sys:String>Toán</sys:String>
+                <sys:String>Lý</sys:String>
+                <sys:String>Hóa</sys:String>
+                <sys:String>Anh</sys:String>
+                <sys:String>Sử</sys:String>
+            </ListBox.Items>
+        </ListBox>
+
+    </StackPanel>
+</Window>

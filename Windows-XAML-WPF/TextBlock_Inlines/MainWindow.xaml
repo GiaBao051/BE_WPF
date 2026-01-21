@@ -1,0 +1,22 @@
+﻿<Window x:Class="TextBlock_Inlines.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextBlock_Inlines"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="txbl1"  Foreground="Chocolate" VerticalAlignment="Top">
+            Gia Bảo
+             - <Bold><Underline>Hoàn Kim</Underline></Bold>
+             - <Bold><Italic>Lưu Hoàn Kim</Italic></Bold>
+             - <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://www.google.com">Trang chủ Google</Hyperlink>
+             - <Span FontFamily="Times New Roman" FontSize="20" Foreground="Blue">Baoooo</Span>
+        </TextBlock>
+
+        <TextBlock x:Name="txbl2" VerticalAlignment="Bottom">
+            
+        </TextBlock>
+    </Grid>
+</Window>

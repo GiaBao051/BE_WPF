@@ -1,0 +1,4 @@
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\Style_Template_Resourse\Style_Template_Resourse\obj\Debug\net8.0-windows\Theme.baml
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\Style_Template_Resourse\Style_Template_Resourse\obj\Debug\net8.0-windows\MainWindow.g.cs
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\Style_Template_Resourse\Style_Template_Resourse\obj\Debug\net8.0-windows\Style_Template_Resourse_MarkupCompile.cache
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\Style_Template_Resourse\Style_Template_Resourse\obj\Debug\net8.0-windows\Style_Template_Resourse_MarkupCompile.lref
