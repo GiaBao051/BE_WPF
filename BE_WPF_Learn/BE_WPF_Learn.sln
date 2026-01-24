@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows-XAML-WPF", "Windows-XAML-WPF\Windows-XAML-WPF.csproj", "{FA186DA9-F5E8-4F04-8CB0-624252288745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBlock_WPF", "TextBlock_WPF\TextBlock_WPF.csproj", "{00EF01A2-799C-4134-9FFC-B8D57859C6FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBlock_Inlines", "TextBlock_Inlines\TextBlock_Inlines.csproj", "{26C38C7C-327C-49C8-8176-EA3FCFC7584F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Button_WPF", "Button_WPF\Button_WPF.csproj", "{341345B0-C7D7-4DE6-97CD-F930C78903C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBox_WPF", "TextBox_WPF\TextBox_WPF.csproj", "{D19E06B6-845C-4230-AC75-1D83EED45151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Padding_WPF", "Padding_WPF\Padding_WPF.csproj", "{F4819257-6188-45DA-9F51-BE4223A8CA21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding_WPF", "Binding_WPF\Binding_WPF.csproj", "{BF8F0D71-01A4-4E33-8CF7-09D5804F4223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grid_WPF", "Grid_WPF\Grid_WPF.csproj", "{F3209AD5-2EA6-4F66-9146-29B21E516E6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA186DA9-F5E8-4F04-8CB0-624252288745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA186DA9-F5E8-4F04-8CB0-624252288745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA186DA9-F5E8-4F04-8CB0-624252288745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA186DA9-F5E8-4F04-8CB0-624252288745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00EF01A2-799C-4134-9FFC-B8D57859C6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00EF01A2-799C-4134-9FFC-B8D57859C6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00EF01A2-799C-4134-9FFC-B8D57859C6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00EF01A2-799C-4134-9FFC-B8D57859C6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C38C7C-327C-49C8-8176-EA3FCFC7584F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C38C7C-327C-49C8-8176-EA3FCFC7584F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C38C7C-327C-49C8-8176-EA3FCFC7584F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C38C7C-327C-49C8-8176-EA3FCFC7584F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341345B0-C7D7-4DE6-97CD-F930C78903C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341345B0-C7D7-4DE6-97CD-F930C78903C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341345B0-C7D7-4DE6-97CD-F930C78903C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341345B0-C7D7-4DE6-97CD-F930C78903C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19E06B6-845C-4230-AC75-1D83EED45151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19E06B6-845C-4230-AC75-1D83EED45151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19E06B6-845C-4230-AC75-1D83EED45151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19E06B6-845C-4230-AC75-1D83EED45151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4819257-6188-45DA-9F51-BE4223A8CA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4819257-6188-45DA-9F51-BE4223A8CA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4819257-6188-45DA-9F51-BE4223A8CA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4819257-6188-45DA-9F51-BE4223A8CA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8F0D71-01A4-4E33-8CF7-09D5804F4223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8F0D71-01A4-4E33-8CF7-09D5804F4223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8F0D71-01A4-4E33-8CF7-09D5804F4223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8F0D71-01A4-4E33-8CF7-09D5804F4223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3209AD5-2EA6-4F66-9146-29B21E516E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3209AD5-2EA6-4F66-9146-29B21E516E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3209AD5-2EA6-4F66-9146-29B21E516E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3209AD5-2EA6-4F66-9146-29B21E516E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {870FAB82-A2B4-44A3-AEED-4C6CBF6277B9}
+	EndGlobalSection
+EndGlobal

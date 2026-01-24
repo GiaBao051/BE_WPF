@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fb37bfa41cdee1015b0e2a53b61ff3aa656e3a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("VD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

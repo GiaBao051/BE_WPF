@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Màu nền chung -->
+    <SolidColorBrush x:Key="WindowBackground" Color="Black"/>
+    <!-- Màu chữ -->
+    <SolidColorBrush x:Key="WindowForeground" Color="White"/>
+    <!-- Màu nút chính -->
+    <SolidColorBrush x:Key="PrimaryButtonColor" Color="#A4DE02"/>
+    <!-- xanh lá sáng -->
+</ResourceDictionary>
