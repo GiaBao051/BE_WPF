@@ -9,10 +9,35 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="5"></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Column="0">
+        <Button Content="1" FontSize="100"></Button>
+        <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch"></GridSplitter>
+        <Button Content="2" FontSize="100" Grid.Column="2"></Button>
+    </Grid>
+    
+    
+    
+    <!--<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Content="1" FontSize="100" Grid.Column="0"></Button>
+        <Button Content="2" FontSize="100" Grid.Column="1"></Button>
+        <Button Content="3" FontSize="100" Grid.Column="0" Grid.Row="1"></Button>
+        <Button Content="4" FontSize="100" Grid.Column="1" Grid.Row="1"></Button>
+        <Button Grid.ColumnSpan="2" Content="3" FontSize="100" Grid.Column="0" Grid.Row="1"></Button>
+        <Button Grid.RowSpan="2" Content="4" FontSize="100" Grid.Column="0" Grid.Row="0"></Button>
+        
+            --><!--<Grid Grid.Column="0">
             <Grid.RowDefinitions>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
@@ -28,6 +53,6 @@
             </Grid.RowDefinitions>
             <Button Content="3" FontSize="100" Grid.Row="0"></Button>
             <Button Content="4" FontSize="100" Grid.Row="1"></Button>
-        </Grid>
-    </Grid>
+        </Grid>--><!--
+    </Grid>-->
 </Window>

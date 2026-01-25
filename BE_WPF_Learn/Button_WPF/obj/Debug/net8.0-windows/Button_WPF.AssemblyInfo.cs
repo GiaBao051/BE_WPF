@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Button_WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fb37bfa41cdee1015b0e2a53b61ff3aa656e3a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29ee54960fde94296b4960115f40aebe526bf78a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Button_WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Button_WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
