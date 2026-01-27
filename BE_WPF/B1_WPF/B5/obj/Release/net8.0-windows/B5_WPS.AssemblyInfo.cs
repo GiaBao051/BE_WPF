@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("B5_WPS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fb37bfa41cdee1015b0e2a53b61ff3aa656e3a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f9713e417b7dfb9fd1da28867ef1d6c887c500a")]
 [assembly: System.Reflection.AssemblyProductAttribute("B5_WPS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("B5_WPS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
