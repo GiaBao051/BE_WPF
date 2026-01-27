@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Learn\\Ky4_25_26\\.Net\\WPF\\BE_WPF\\B2_WPF\\Style_Template_Resourse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91303BDA-57FA-4C86-B9FA-0ABA87CA15B7}|Bai1\\Bai1.csproj|e:\\learn\\ky4_25_26\\.net\\wpf\\be_wpf\\b2_wpf\\style_template_resourse\\bai1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{91303BDA-57FA-4C86-B9FA-0ABA87CA15B7}|Bai1\\Bai1.csproj|solutionrelative:bai1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91303BDA-57FA-4C86-B9FA-0ABA87CA15B7}|Bai1\\Bai1.csproj|e:\\learn\\ky4_25_26\\.net\\wpf\\be_wpf\\b2_wpf\\style_template_resourse\\bai1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91303BDA-57FA-4C86-B9FA-0ABA87CA15B7}|Bai1\\Bai1.csproj|solutionrelative:bai1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\WpfDemo\\WpfDemo\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C77876C-3690-4AED-94C8-DF8FAA839776}|Style_Template_Resourse\\Style_Template_Resourse.csproj|e:\\learn\\ky4_25_26\\.net\\wpf\\be_wpf\\b2_wpf\\style_template_resourse\\style_template_resourse\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C77876C-3690-4AED-94C8-DF8FAA839776}|Style_Template_Resourse\\Style_Template_Resourse.csproj|solutionrelative:style_template_resourse\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C77876C-3690-4AED-94C8-DF8FAA839776}|Style_Template_Resourse\\Style_Template_Resourse.csproj|e:\\learn\\ky4_25_26\\.net\\wpf\\be_wpf\\b2_wpf\\style_template_resourse\\style_template_resourse\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C77876C-3690-4AED-94C8-DF8FAA839776}|Style_Template_Resourse\\Style_Template_Resourse.csproj|solutionrelative:style_template_resourse\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C77876C-3690-4AED-94C8-DF8FAA839776}|Style_Template_Resourse\\Style_Template_Resourse.csproj|e:\\learn\\ky4_25_26\\.net\\wpf\\be_wpf\\b2_wpf\\style_template_resourse\\style_template_resourse\\theme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6C77876C-3690-4AED-94C8-DF8FAA839776}|Style_Template_Resourse\\Style_Template_Resourse.csproj|solutionrelative:style_template_resourse\\theme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C77876C-3690-4AED-94C8-DF8FAA839776}|Style_Template_Resourse\\Style_Template_Resourse.csproj|e:\\learn\\ky4_25_26\\.net\\wpf\\be_wpf\\b2_wpf\\style_template_resourse\\style_template_resourse\\style_template_resourse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C77876C-3690-4AED-94C8-DF8FAA839776}|Style_Template_Resourse\\Style_Template_Resourse.csproj|solutionrelative:style_template_resourse\\style_template_resourse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\WpfDemo\\WpfDemo\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\VD\\VD\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\VD\\VD\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\VD\\VD\\VD.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\BE_WPF\\B2_WPF\\WpfDemo\\WpfDemo\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\BE_WPF\\B2_WPF\\WpfDemo\\WpfDemo\\WDFDemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\BE_WPF\\B2_WPF\\VD\\VD\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Learn\\Ky4_25_26\\.Net\\WPF\\BE_WPF\\B2_WPF\\Style_Template_Resourse\\Bai1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Bai1\\MainWindow.xaml",
+              "ToolTip": "E:\\Learn\\Ky4_25_26\\.Net\\WPF\\BE_WPF\\B2_WPF\\Style_Template_Resourse\\Bai1\\MainWindow.xaml",
+              "RelativeToolTip": "Bai1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T08:01:53.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\BE_WPF\\B2_WPF\\WpfDemo\\WpfDemo\\MainWindow.xaml",
+              "ToolTip": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\BE_WPF\\B2_WPF\\WpfDemo\\WpfDemo\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T08:01:42.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WDFDemo.csproj",
+              "DocumentMoniker": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\BE_WPF\\B2_WPF\\WpfDemo\\WpfDemo\\WDFDemo.csproj",
+              "ToolTip": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\BE_WPF\\B2_WPF\\WpfDemo\\WpfDemo\\WDFDemo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-21T08:01:38.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Learn\\Ky4_25_26\\.Net\\WPF\\BE_WPF\\B2_WPF\\Style_Template_Resourse\\Bai1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Bai1\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\Learn\\Ky4_25_26\\.Net\\WPF\\BE_WPF\\B2_WPF\\Style_Template_Resourse\\Bai1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Bai1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:58:09.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\BE_WPF\\B2_WPF\\VD\\VD\\MainWindow.xaml",
+              "ToolTip": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\BE_WPF\\B2_WPF\\VD\\VD\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T07:39:32.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\WpfDemo\\WpfDemo\\App.xaml",
+              "ToolTip": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\WpfDemo\\WpfDemo\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T07:24:47.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\VD\\VD\\MainWindow.xaml",
+              "ToolTip": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\VD\\VD\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T07:22:20.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\VD\\VD\\App.xaml",
+              "ToolTip": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\VD\\VD\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T07:22:02.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\Learn\\Ky4_25_26\\.Net\\WPF\\BE_WPF\\B2_WPF\\Style_Template_Resourse\\Style_Template_Resourse\\App.xaml",
+              "RelativeDocumentMoniker": "Style_Template_Resourse\\App.xaml",
+              "ToolTip": "E:\\Learn\\Ky4_25_26\\.Net\\WPF\\BE_WPF\\B2_WPF\\Style_Template_Resourse\\Style_Template_Resourse\\App.xaml",
+              "RelativeToolTip": "Style_Template_Resourse\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T07:21:42.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Learn\\Ky4_25_26\\.Net\\WPF\\BE_WPF\\B2_WPF\\Style_Template_Resourse\\Style_Template_Resourse\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Style_Template_Resourse\\MainWindow.xaml",
+              "ToolTip": "E:\\Learn\\Ky4_25_26\\.Net\\WPF\\BE_WPF\\B2_WPF\\Style_Template_Resourse\\Style_Template_Resourse\\MainWindow.xaml",
+              "RelativeToolTip": "Style_Template_Resourse\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T07:21:24.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\WpfDemo\\WpfDemo\\MainWindow.xaml",
+              "ToolTip": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\WpfDemo\\WpfDemo\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T07:20:08.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VD.csproj",
+              "DocumentMoniker": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\VD\\VD\\VD.csproj",
+              "ToolTip": "F:\\Thuc Hanh\\TH C\u00F4ng ngh\u1EC7 .Net\\WPF\\B2_WPF\\VD\\VD\\VD.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-21T07:20:01.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Theme.xaml",
+              "DocumentMoniker": "E:\\Learn\\Ky4_25_26\\.Net\\WPF\\BE_WPF\\B2_WPF\\Style_Template_Resourse\\Style_Template_Resourse\\Theme.xaml",
+              "RelativeDocumentMoniker": "Style_Template_Resourse\\Theme.xaml",
+              "ToolTip": "E:\\Learn\\Ky4_25_26\\.Net\\WPF\\BE_WPF\\B2_WPF\\Style_Template_Resourse\\Style_Template_Resourse\\Theme.xaml",
+              "RelativeToolTip": "Style_Template_Resourse\\Theme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-21T07:15:40.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Style_Template_Resourse.csproj",
+              "DocumentMoniker": "E:\\Learn\\Ky4_25_26\\.Net\\WPF\\BE_WPF\\B2_WPF\\Style_Template_Resourse\\Style_Template_Resourse\\Style_Template_Resourse.csproj",
+              "RelativeDocumentMoniker": "Style_Template_Resourse\\Style_Template_Resourse.csproj",
+              "ToolTip": "E:\\Learn\\Ky4_25_26\\.Net\\WPF\\BE_WPF\\B2_WPF\\Style_Template_Resourse\\Style_Template_Resourse\\Style_Template_Resourse.csproj",
+              "RelativeToolTip": "Style_Template_Resourse\\Style_Template_Resourse.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-21T07:15:33.735Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

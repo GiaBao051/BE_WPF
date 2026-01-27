@@ -1,0 +1,46 @@
+F:\CONG NGHE NET\Project_mau\Resource\VD\bin\Debug\net8.0-windows\VD.exe
+F:\CONG NGHE NET\Project_mau\Resource\VD\bin\Debug\net8.0-windows\VD.deps.json
+F:\CONG NGHE NET\Project_mau\Resource\VD\bin\Debug\net8.0-windows\VD.runtimeconfig.json
+F:\CONG NGHE NET\Project_mau\Resource\VD\bin\Debug\net8.0-windows\VD.dll
+F:\CONG NGHE NET\Project_mau\Resource\VD\bin\Debug\net8.0-windows\VD.pdb
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\Dictionary1.baml
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\Theme.baml
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\MainWindow.g.cs
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\App.g.cs
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\VD_MarkupCompile.cache
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\VD_MarkupCompile.lref
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\App.baml
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\MainWindow.baml
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\VD.g.resources
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\VD.GeneratedMSBuildEditorConfig.editorconfig
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\VD.AssemblyInfoInputs.cache
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\VD.AssemblyInfo.cs
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\VD.csproj.CoreCompileInputs.cache
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\VD.dll
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\refint\VD.dll
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\VD.pdb
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\VD.genruntimeconfig.cache
+F:\CONG NGHE NET\Project_mau\Resource\VD\obj\Debug\net8.0-windows\ref\VD.dll
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\Dictionary1.baml
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\Theme.baml
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\MainWindow.g.cs
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\VD_MarkupCompile.cache
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\VD_MarkupCompile.lref
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\VD.dll
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\refint\VD.dll
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\VD.pdb
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\bin\Debug\net8.0-windows\VD.exe
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\bin\Debug\net8.0-windows\VD.deps.json
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\bin\Debug\net8.0-windows\VD.runtimeconfig.json
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\bin\Debug\net8.0-windows\VD.dll
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\bin\Debug\net8.0-windows\VD.pdb
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\App.g.cs
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\App.baml
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\MainWindow.baml
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\VD.g.resources
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\VD.GeneratedMSBuildEditorConfig.editorconfig
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\VD.AssemblyInfoInputs.cache
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\VD.AssemblyInfo.cs
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\VD.csproj.CoreCompileInputs.cache
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\VD.genruntimeconfig.cache
+F:\Thuc Hanh\TH Công nghệ .Net\WPF\B2_WPF\VD\VD\obj\Debug\net8.0-windows\ref\VD.dll

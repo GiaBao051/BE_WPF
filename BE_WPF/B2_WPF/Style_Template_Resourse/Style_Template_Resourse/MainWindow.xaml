@@ -1,0 +1,36 @@
+﻿<Window x:Class="Style_Template_Resourse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Style_Template_Resourse"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <!-- Màu chung -->
+        <SolidColorBrush x:Key="MainButtonBrush" Color="LightBlue"/>
+
+        <!-- Style cho Button -->
+        <!--
+        <Style x:Key="MainButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource MainButtonBrush}"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>-->
+    </Window.Resources>
+    <!--Layout và các control-->
+    <Grid>
+        <TextBox Background="{StaticResource PrimaryBrush}" HorizontalAlignment="Left" Height="65" Margin="290,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320"/>
+        <Label Foreground="{StaticResource WindowForeground}" Background="{StaticResource AppButtonBrush}" Content="Họ và tên" HorizontalAlignment="Left" Height="50" Margin="30,54,0,0" VerticalAlignment="Top" Width="230"/>
+        <Label FontFamily="{StaticResource PrimaryFont}" Content="Năm sinh" HorizontalAlignment="Left" Height="70" Margin="30,179,0,0" VerticalAlignment="Top" Width="230"/>
+        <TextBox HorizontalAlignment="Left" Height="70" Margin="290,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305"/>
+        <Button Content="Thêm" HorizontalAlignment="Left" Height="65" Margin="30,289,0,0" VerticalAlignment="Top" Width="135" Click="Button_Click" Background="{DynamicResource MyButtonBrush}" >
+            <Button.Resources>
+                <SolidColorBrush x:Key="MyButtonBrush" Color="LightGreen"/>
+            </Button.Resources>
+        </Button>
+        <Button Background="{StaticResource MainButtonBrush }" Content="Xóa" HorizontalAlignment="Left" Height="65" Margin="290,289,0,0" VerticalAlignment="Top" Width="160"/>
+        <Button  Background="{StaticResource MainButtonBrush }" Content="Sửa" HorizontalAlignment="Left" Height="65" Margin="555,289,0,0" VerticalAlignment="Top" Width="160"/>
+
+    </Grid>
+</Window>

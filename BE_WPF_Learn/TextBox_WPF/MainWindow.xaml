@@ -1,0 +1,33 @@
+﻿<Window x:Class="TextBox_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextBox_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--<TextBox Text="Gia Bao" 
+                 IsEnabled="True">
+            
+        </TextBox>
+        <PasswordBox Password="123456789" 
+                     PasswordChar="9">
+        </PasswordBox>-->
+
+        <TextBox x:Name="txbvalue" 
+                 VerticalAlignment="Center" 
+                 Background="YellowGreen">
+        </TextBox>
+        <TextBlock x:Name="txblvalue" 
+                   VerticalAlignment="Top" 
+                   Background="DeepSkyBlue">
+        </TextBlock>
+        <Button x:Name="btnvalue" 
+                Content="Click me" 
+                VerticalAlignment="Bottom"
+                Click="bntValue_Click"
+                Background="LightGray">
+        </Button>
+    </Grid>
+</Window>
