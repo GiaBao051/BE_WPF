@@ -37,6 +37,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBox_WPF", "CheckBox_WP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButton_WPF", "RadioButton_WPF\RadioButton_WPF.csproj", "{2689855C-AB19-42C9-88B9-1F5954082500}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToggleButton_WPF", "ToggleButton_WPF\ToggleButton_WPF.csproj", "{5CCA727E-E35E-4F3D-A978-B34542D1C7DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliderBar_WPF", "SliderBar_WPF\SliderBar_WPF.csproj", "{A4C2DFEF-F002-4C4B-B070-E8E2D63A7848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Image_WPF", "Image_WPF\Image_WPF.csproj", "{AFC4DD07-484D-4B42-8FE0-37DECD3C7DA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +117,18 @@ Global
 		{2689855C-AB19-42C9-88B9-1F5954082500}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2689855C-AB19-42C9-88B9-1F5954082500}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2689855C-AB19-42C9-88B9-1F5954082500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CCA727E-E35E-4F3D-A978-B34542D1C7DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCA727E-E35E-4F3D-A978-B34542D1C7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCA727E-E35E-4F3D-A978-B34542D1C7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCA727E-E35E-4F3D-A978-B34542D1C7DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C2DFEF-F002-4C4B-B070-E8E2D63A7848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C2DFEF-F002-4C4B-B070-E8E2D63A7848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C2DFEF-F002-4C4B-B070-E8E2D63A7848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C2DFEF-F002-4C4B-B070-E8E2D63A7848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC4DD07-484D-4B42-8FE0-37DECD3C7DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC4DD07-484D-4B42-8FE0-37DECD3C7DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC4DD07-484D-4B42-8FE0-37DECD3C7DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC4DD07-484D-4B42-8FE0-37DECD3C7DA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
