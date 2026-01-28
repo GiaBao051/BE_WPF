@@ -1,0 +1,94 @@
+﻿<Window x:Class="DatMonWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatMonWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+
+        <!-- Style chung cho TextBox -->
+        <Style x:Key="InputTextBox" TargetType="TextBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="6"/>
+            <Setter Property="Height" Value="28"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Style.Triggers>
+                <!-- Nếu rỗng thì viền đỏ -->
+                <Trigger Property="Text" Value="">
+                    <Setter Property="BorderBrush" Value="Red"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Style Button -->
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="Width" Value="100"/>
+        </Style>
+
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- CỘT TRÁI -->
+        <GroupBox Header="Thông tin đặt món" Grid.Column="0" Margin="10">
+            <StackPanel>
+
+                <!--<Label Content="Tên khách hàng"/>-->
+                <Label Content="_Tên khách hàng:" Target="{Binding ElementName=txtTen}"/>
+                <TextBox x:Name="txtTen" Style="{StaticResource InputTextBox}"/>
+
+                <Label Content="Số điện thoại"/>
+                <TextBox x:Name="txtSDT"
+                         Style="{StaticResource InputTextBox}"
+                         PreviewTextInput="txtSDT_PreviewTextInput"/>
+
+                <Label Content="Chọn bàn"/>
+                <ComboBox x:Name="cboBan" Margin="5" Height="28"/>
+
+                <Label Content="Chọn món"/>
+                <ComboBox x:Name="cboMon" Margin="5" Height="28"/>
+
+                <Button Content="Thêm món" Click="btnThemMon_Click"/>
+
+            </StackPanel>
+        </GroupBox>
+
+        <!-- CỘT PHẢI -->
+        <GroupBox Header="Thông tin hiển thị" Grid.Column="1" Margin="10">
+            <StackPanel>
+
+                <TextBlock Text="Thông tin khách hàng"
+                           FontWeight="Bold"
+                           Margin="5"/>
+
+                <TextBlock x:Name="txtThongTin"
+                           Margin="5"
+                           Height="70"
+                           TextWrapping="Wrap"/>
+
+                <TextBlock Text="Danh sách món đã chọn"
+                           FontWeight="Bold"
+                           Margin="5"/>
+
+                <ListBox x:Name="lstMon"
+                         Height="180"
+                         Margin="5" />
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="Xóa món" Click="btnXoaMon_Click"/>
+                    <Button Content="Đặt món" Click="btnDatMon_Click"/>
+                </StackPanel>
+
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>

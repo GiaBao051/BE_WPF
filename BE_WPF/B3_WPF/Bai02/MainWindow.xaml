@@ -1,0 +1,207 @@
+﻿<Window x:Class="Bai02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bai02"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="676" Width="800">
+    <Grid Margin="0,0,0,-73">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="487*"/>
+                <ColumnDefinition Width="178*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!--Tiêu đề-->
+            <TextBlock Text="Form thông tin - Sở thích cá nhân"
+                       FontSize="20"
+                       FontWeight="Black"
+                       HorizontalAlignment="Center"
+                       Margin="5" 
+                       Grid.ColumnSpan="2"/>
+
+            <!--Tab Control-->
+            <TabControl x:Name="tabControl" 
+                        Background="White" 
+                        Padding="10" 
+                        Grid.ColumnSpan="2"
+                        Margin="0,30,0,102" 
+                        Grid.RowSpan="2">
+
+                <!--Tab 1 - Nhập thông tin-->
+                <TabItem Header="Nhập thông tin cá nhân">
+                    <Grid Height="553">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1.2*"></ColumnDefinition>
+                            <ColumnDefinition Width="1.8*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <!--Cột 1-->
+                        <StackPanel Grid.Row="0"
+                                    Margin="10"
+                                    VerticalAlignment="Top">
+                            <TextBlock Text="Họ và tên:" 
+                                       FontWeight="Bold"/>
+                            <TextBox x:Name="txtHoTen"
+                                     Width="200"
+                                     Height="25"
+                                     HorizontalAlignment="Left"
+                                     Margin="0,0,0,15" TextChanged="TextBox_TextChanged"/>
+                            <TextBlock Text="Giới tính"
+                                       FontWeight="Bold"/>
+                            <StackPanel Orientation="Horizontal"
+                                        Margin="0,0,0,15">
+                                <RadioButton x:Name="radNam"
+                                             Content="Nam"
+                                             Margin="10, 5"/>
+                                <RadioButton x:Name="radNu"
+                                             Content="Nữ"
+                                             Margin="20, 5"/>
+                            </StackPanel>
+                            <TextBlock Text="Ngày sinh"
+                                       FontWeight="Bold"/>
+                            <DatePicker x:Name="dtpNgaySinh"
+                                        Margin="0,0,0,15"/>
+                            <TextBlock Text="Quốc tịch:"
+                                       FontWeight="Bold" Margin="0,0,0,5"/>
+                            <ComboBox x:Name="cmbQuocTich" 
+                                      Height="28"
+                                      Margin="0,0,0,15">
+                                <ComboBoxItem Content="Việt Nam"/>
+                                <ComboBoxItem Content="Mỹ"/>
+                                <ComboBoxItem Content="Nhật Bản"/>
+                                <ComboBoxItem Content="Hàn Quốc"/>
+                                <ComboBoxItem Content="Pháp"/>
+                            </ComboBox>
+                        </StackPanel>
+
+                        <!--Cột 2-->
+                        <StackPanel Grid.Column="1" 
+                                    Margin="10"
+                                    VerticalAlignment="Top">
+                            <TextBlock Text="Nghề nghiệp:"
+                                       FontWeight="Bold" 
+                                       Margin="0,0,0,5"/>
+                            <TextBox x:Name="txtNgheNghiep" 
+                                     Height="28"
+                                     Margin="0,0,0,15"/>
+                            <TextBlock Text="Sở thích:"
+                                       FontWeight="Bold" 
+                                       Margin="0,0,0,5"/>
+                            <StackPanel Margin="0,0,0,15">
+                                <CheckBox x:Name="chkDocSach"
+                                          Content="Đọc sách" 
+                                          Margin="5"/>
+                                <CheckBox x:Name="chkNgheNhac"
+                                          Content="Nghe nhạc" 
+                                          Margin="5"/>
+                                <CheckBox x:Name="chkTheThao"
+                                          Content="Thể thao" 
+                                          Margin="5"/>
+                                <CheckBox x:Name="chkDuLich"
+                                          Content="Du lịch" 
+                                          Margin="5"/>
+                            </StackPanel>
+                            <TextBlock Text="Kỹ năng:"
+                                       FontWeight="Bold" 
+                                       Margin="0,0,0,5"/>
+                            <ListBox x:Name="lstKyNang" 
+                                     Height="100"
+                                     SelectionMode="Multiple" 
+                                     Margin="0,0,0,15">
+                                <ListBoxItem Content="C# / .NET"/>
+                                <ListBoxItem Content="WPF / XAML"/>
+                                <ListBoxItem Content="SQL Server"/>
+                                <ListBoxItem Content="HTML / CSS"/>
+                                <ListBoxItem Content="Kỹ năng giao tiếp"/>
+                            </ListBox>
+                            <TextBlock Text="Ghi chú:"
+                                       FontWeight="Bold" 
+                                       Margin="0,0,0,5"/>
+                            <TextBox x:Name="txtGhiChu"
+                                     AcceptsReturn="True" 
+                                     Height="70" 
+                                     TextWrapping="Wrap"/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+                <!-- TAB 2: XEM THÔNG TIN -->
+                <TabItem Header="Xem thông tin đã nhập">
+                    <Grid Margin="15">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1.2*"/>
+                            <ColumnDefinition Width="1.8*"/>
+                        </Grid.ColumnDefinitions>
+                        <!-- CỘT 1 -->
+                        <StackPanel Grid.Column="0" 
+                                    Margin="10"
+                                    VerticalAlignment="Top">
+                            <TextBlock Text="Họ và tên:"
+                                       FontWeight="Bold"/>
+                            <TextBlock x:Name="lblHoTen"
+                                       Margin="0,0,0,10"/>
+                            <TextBlock Text="Giới tính:"
+                                       FontWeight="Bold"/>
+                            <TextBlock x:Name="lblGioiTinh"
+                                       Margin="0,0,0,10"/>
+                            <TextBlock Text="Ngày sinh:"
+                                       FontWeight="Bold"/>
+                            <TextBlock x:Name="lblNgaySinh"
+                                       Margin="0,0,0,10"/>
+                            <TextBlock Text="Quốc tịch:"
+                                       FontWeight="Bold"/>
+                            <TextBlock x:Name="lblQuocTich"
+                                       Margin="0,0,0,10"/>
+                        </StackPanel>
+                        <!-- CỘT 2 -->
+                        <StackPanel Grid.Column="1" Margin="10"
+                                    VerticalAlignment="Top">
+                            <TextBlock Text="Nghề nghiệp:"
+                                       FontWeight="Bold"/>
+                            <TextBlock x:Name="lblNgheNghiep"
+                                       Margin="0,0,0,10"/>
+                            <TextBlock Text="Sở thích:"
+                                       FontWeight="Bold"/>
+                            <TextBlock x:Name="lblSoThich"
+                                       Margin="0,0,0,10"/>
+                            <TextBlock Text="Kỹ năng:"
+                                       FontWeight="Bold"/>
+                            <TextBlock x:Name="lblKyNang"
+                                       Margin="0,0,0,10"/>
+                            <TextBlock Text="Ghi chú:"
+                                       FontWeight="Bold"/>
+                            <TextBlock x:Name="lblGhiChu"
+                                       Margin="0,0,0,10" TextWrapping="Wrap"/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+            <!-- Nút điều khiển -->
+            <StackPanel Grid.Row="1"
+            Orientation="Horizontal"
+            HorizontalAlignment="Left"
+            Margin="282,492,0,55" Width="322" Grid.ColumnSpan="2" >
+                <Button Content="Xem thông tin" 
+            Width="130" 
+            Height="35"
+            Background="#3498DB" Foreground="White" 
+            Click="BtnXemThongTin_Click"/>
+                <Button Content="Thoát" 
+            Width="93" 
+            Height="35"
+            Background="#E74C3C" 
+            Foreground="White" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
+
+    
+    

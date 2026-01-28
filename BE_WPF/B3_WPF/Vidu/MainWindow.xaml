@@ -1,0 +1,36 @@
+﻿<Window x:Class="Vidu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vidu"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid Margin="0,0,0,-216">
+        <Label Content="Họ _tên" Target="{Binding ElementName=txtten}" HorizontalAlignment="Left" Height="45" Margin="25,44,0,0" VerticalAlignment="Top" Width="190"/>
+        <TextBox x:Name="txtten" HorizontalAlignment="Left" Height="45" Margin="290,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" TextChanged="txtten_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="25,119,0,0" TextWrapping="Wrap" Text="Tuổi" VerticalAlignment="Top" Width="190"/>
+        <TextBox x:Name="txttuoi" HorizontalAlignment="Left" Height="30" Margin="290,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320"/>
+        <RadioButton x:Name="rdNam" Content="Nam" HorizontalAlignment="Left" Height="33" Margin="215,184,0,0" VerticalAlignment="Top" Width="115" Checked="rdNam_Checked"/>
+        <RadioButton x:Name="rdNu" Content="Nữ" HorizontalAlignment="Left" Height="33" Margin="440,184,0,0" VerticalAlignment="Top" Width="150" Checked="rdNam_Checked" />
+        <Label Content="Giới tính" HorizontalAlignment="Left" Height="33" Margin="25,184,0,0" VerticalAlignment="Top" Width="95"/>
+        <CheckBox x:Name="chk1" Content="Âm nhạc" HorizontalAlignment="Left" Height="30" Margin="235,244,0,0" VerticalAlignment="Top" Width="95" IsChecked="False" Checked="chk1_Checked" Unchecked="chk1_Unchecked"/>
+        <CheckBox x:Name="chk2" Content="Thể thao" HorizontalAlignment="Left" Height="37" Margin="382,247,0,0" VerticalAlignment="Top" Width="116"/>
+        <Label Content="Sở thích" HorizontalAlignment="Left" Height="33" Margin="25,241,0,0" VerticalAlignment="Top" Width="95"/>
+        <ComboBox HorizontalAlignment="Left" Height="55" Margin="235,284,0,0" VerticalAlignment="Top" Width="263" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem Content="Hà Nội"/>
+            <ComboBoxItem Content="TPHCM"/>
+            <ComboBoxItem Content="Đà Nẵng"/>
+            <ComboBoxItem Content="Huế"/>
+
+        </ComboBox>
+        <Label Content="Quê quán" HorizontalAlignment="Left" Height="55" Margin="25,284,0,0" VerticalAlignment="Top" Width="95"/>
+        <ListBox HorizontalAlignment="Left" Height="116" Margin="235,384,0,0" VerticalAlignment="Top" Width="280" SelectionMode="Multiple" SelectionChanged="ListBox_SelectionChanged_1">
+            <ListBoxItem Content="Giao tiếp"/>
+            <ListBoxItem Content="Ngủ"/>
+            <ListBoxItem Content="Ăn"/>
+
+        </ListBox>
+        <Label Content="Kỹ năng" HorizontalAlignment="Left" Height="60" Margin="25,399,0,0" VerticalAlignment="Top" Width="95"/>
+       </Grid>
+</Window>
