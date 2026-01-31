@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliderBar_WPF", "SliderBar_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Image_WPF", "Image_WPF\Image_WPF.csproj", "{AFC4DD07-484D-4B42-8FE0-37DECD3C7DA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Style_WPF", "Style_WPF\Style_WPF.csproj", "{93629EDD-9929-4011-BA07-9B82E90C071A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTemplate_WPF", "DataTemplate_WPF\DataTemplate_WPF.csproj", "{E084A6EA-2C94-4FA3-8D4B-69977DAF4D15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{AFC4DD07-484D-4B42-8FE0-37DECD3C7DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFC4DD07-484D-4B42-8FE0-37DECD3C7DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFC4DD07-484D-4B42-8FE0-37DECD3C7DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93629EDD-9929-4011-BA07-9B82E90C071A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93629EDD-9929-4011-BA07-9B82E90C071A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93629EDD-9929-4011-BA07-9B82E90C071A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93629EDD-9929-4011-BA07-9B82E90C071A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E084A6EA-2C94-4FA3-8D4B-69977DAF4D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E084A6EA-2C94-4FA3-8D4B-69977DAF4D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E084A6EA-2C94-4FA3-8D4B-69977DAF4D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E084A6EA-2C94-4FA3-8D4B-69977DAF4D15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
