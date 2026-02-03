@@ -1,0 +1,156 @@
+﻿<Window x:Class="Bai04.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bai04"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="487*"/>
+                <ColumnDefinition Width="178*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!--Tiêu đề-->
+            <TextBlock Text="Form Thông tin - Sở thích cá nhân"
+                       HorizontalAlignment="Center"
+                       FontSize="20"
+                       FontWeight="Bold"
+                       Foreground="DarkSlateBlue"
+                       Grid.ColumnSpan="2">
+            </TextBlock>
+
+            <TabControl Background="White"
+                        Grid.ColumnSpan="2"
+                        Padding="10"
+                        Margin="20,3,20,75" Grid.Row="1">
+                <!--Tab 1-->
+                <TabItem Header="Thông tin cá nhân">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <!--Cột 1-->
+                        <StackPanel Grid.Row="0">
+                            <TextBlock Text="Nhập họ tên:"
+                                       FontWeight="Bold"
+                                       Margin="70,30,0,0"/>
+                            <TextBlock Text="Ngày sinh:"
+                                       FontWeight="Bold"
+                                       Margin="70,30,0,0"/>
+                            <TextBlock Text="Giới tính:"
+                                       FontWeight="Bold"
+                                       Margin="70,30,0,0"/>
+                            <TextBlock Text="Quốc tịch:"
+                                       FontWeight="Bold"
+                                       Margin="70,30,0,0"/>
+                            <TextBlock Text="Nghề nghiệp:"
+                                       FontWeight="Bold"
+                                       Margin="70,30,0,0"/>
+                        </StackPanel>
+
+                        <StackPanel  Grid.Column="1">
+                            <TextBox Margin="0,30,0,0"
+                                     Width="400"
+                                     Height="25"
+                                     HorizontalAlignment="Left"/>
+                            <DatePicker Margin="0,25,0,0"
+                                        Width="400"
+                                        HorizontalAlignment="Left"/>
+                            <StackPanel Orientation="Horizontal "
+                                        Margin="0,20,0,0"
+                                        HorizontalAlignment="Left">
+                                <RadioButton Content="Nam"
+                                             Margin="5, 5"
+                                             HorizontalAlignment="Left"/>
+                                <RadioButton Content="Nữ"
+                                             Margin="20, 5"/>
+                            </StackPanel>
+                            <ComboBox Width="400"
+                                      Height="25"
+                                      Margin="0,25,0,0"
+                                      HorizontalAlignment="Left">
+                                <ComboBoxItem Content="Việt Nam"/>
+                                <ComboBoxItem Content="Mỹ"/>
+                                <ComboBoxItem Content="Nhật Bản"/>
+                                <ComboBoxItem Content="Hàn Quốc"/>
+                                <ComboBoxItem Content="Pháp"/>
+                            </ComboBox>
+                            <TextBox Width="400"
+                                     Height="25"
+                                     Margin="0,25,0,0"
+                                     HorizontalAlignment="Left"/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+
+                <TabItem Header="Sở thích - Ghi chú">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <GroupBox Header="Sở thích cá nhân" Margin="5">
+                                <StackPanel Margin="10">
+                                    <CheckBox Content="Đọc sách"/>
+                                    <CheckBox Content="Du lịch"/>
+                                    <CheckBox Content="Nghe nhạc"/>
+                                    <CheckBox Content="Thể thao"/>
+                                    <CheckBox Content="Chơi game"/>
+                                </StackPanel>
+                            </GroupBox>
+
+                            <GroupBox Header="Kỹ năng" Grid.Column="1" Margin="5">
+                                <TextBox Margin="10"
+                                     AcceptsReturn="True"
+                                     TextWrapping="Wrap"
+                                     VerticalScrollBarVisibility="Auto"
+                                     Text="C# / .NET&#10;WPF / XAML&#10;SQL Server&#10;HTML / CSS&#10;Giao tiếp / Làm việc nhóm"/>
+                            </GroupBox>
+                        </Grid>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+            <StackPanel Grid.RowSpan="2"
+                        Grid.ColumnSpan="2"
+                                Orientation="Horizontal"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Bottom"
+                                Margin="0,15,0,20">
+                <Button Content="Hiện thông tin"
+                                Width="120"
+                                Height="35"
+                                Margin="10"
+                                Background="#2ecc71"
+                                Foreground="White"
+                                Click="BtnHienThongTin_Click"/>
+                <Button Content="Thoát"
+                                Width="120"
+                                Height="35"
+                                Margin="10"
+                                Background="#e74c3c"
+                                Foreground="White"
+                                Click="BtnThoat_Click"/>
+            </StackPanel>
+        </Grid>
+
+
+
+    </Grid>
+</Window>

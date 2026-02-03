@@ -69,17 +69,7 @@
                                        FontWeight="Bold"/>
                             <DatePicker x:Name="dtpNgaySinh"
                                         Margin="0,0,0,15"/>
-                            <TextBlock Text="Quốc tịch:"
-                                       FontWeight="Bold" Margin="0,0,0,5"/>
-                            <ComboBox x:Name="cmbQuocTich" 
-                                      Height="28"
-                                      Margin="0,0,0,15">
-                                <ComboBoxItem Content="Việt Nam"/>
-                                <ComboBoxItem Content="Mỹ"/>
-                                <ComboBoxItem Content="Nhật Bản"/>
-                                <ComboBoxItem Content="Hàn Quốc"/>
-                                <ComboBoxItem Content="Pháp"/>
-                            </ComboBox>
+                            
                         </StackPanel>
 
                         <!--Cột 2-->
