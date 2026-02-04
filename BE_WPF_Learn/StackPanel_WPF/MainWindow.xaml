@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel Orientation="Vertical">
-            <Button Content="1" FontSize="100" ></Button>
+        <Button Content="1" FontSize="100" ></Button>
             <Button Content="2" FontSize="100" ></Button>
             <Button Content="3" FontSize="100" ></Button>
             <Button Content="4" FontSize="100" ></Button>

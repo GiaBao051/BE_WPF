@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DocKPanel_WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f9713e417b7dfb9fd1da28867ef1d6c887c500a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+078c83056434c7b7647d385f66a4bcec5432db07")]
 [assembly: System.Reflection.AssemblyProductAttribute("DocKPanel_WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DocKPanel_WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
