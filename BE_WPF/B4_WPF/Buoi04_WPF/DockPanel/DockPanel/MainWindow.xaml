@@ -1,0 +1,88 @@
+﻿<Window x:Class="DockPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DockPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!-- Bọc tất cả control trong Grid -->
+    <!--<Grid>
+
+        --><!-- Menu --><!--
+        <Menu VerticalAlignment="Top" Height="30">
+            <MenuItem Header="Hệ thống">
+                <MenuItem Header="Đăng nhập"/>
+                <Separator/>
+                <MenuItem Header="Thoát"/>
+            </MenuItem>
+            <MenuItem Header="Danh mục">
+                <MenuItem Header="Nhân viên"/>
+                <MenuItem Header="Phòng ban"/>
+            </MenuItem>
+        </Menu>
+
+        --><!-- Toolbar --><!--
+        <ToolBar VerticalAlignment="Top" Margin="0,30,0,0" Height="30">
+            <Button Content="Thêm"/>
+            <Button Content="Xóa"/>
+            <Button Content="Sửa"/>
+        </ToolBar>
+
+        --><!-- Sidebar --><!--
+        <StackPanel Width="120" HorizontalAlignment="Left" Margin="0,60,0,0" Background="LightBlue">
+            <Button Content="Item 1"/>
+            <Button Content="Item 2"/>
+        </StackPanel>
+
+        --><!-- Nội dung chính --><!--
+        <Grid Background="LightGray" Margin="120,60,0,0">
+            <TextBlock Text="Nội dung chính"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="24"/>
+        </Grid>
+
+    </Grid>-->
+
+    <DockPanel>
+
+        <!-- Menu dock Top -->
+        <Menu DockPanel.Dock="Top" Height="30">
+            <MenuItem Header="Hệ thống">
+                <MenuItem Header="Đăng nhập"/>
+                <Separator/>
+                <MenuItem Header="Thoát"/>
+                <MenuItem Header="MenuItem"/>
+            </MenuItem>
+            <MenuItem Header="Danh mục">
+                <MenuItem Header="Nhân viên"/>
+                <MenuItem Header="Phòng ban"/>
+            </MenuItem>
+        </Menu>
+
+        <!-- Toolbar dock Top dưới Menu -->
+        <ToolBarTray DockPanel.Dock="Top" Height="30">
+            <ToolBar>
+                <Button Content="Thêm"/>
+                <Button Content="Xóa"/>
+                <Button Content="Sửa"/>
+            </ToolBar>
+        </ToolBarTray>
+
+        <!-- Sidebar dock Left -->
+        <StackPanel DockPanel.Dock="Left" Width="120" Background="LightBlue">
+            <Button Content="Item 1"/>
+            <Button Content="Item 2"/>
+        </StackPanel>
+
+        <!-- Nội dung chính chiếm phần còn lại -->
+        <Grid Background="LightGray">
+            <TextBlock Text="Nội dung chính"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="24"/>
+        </Grid>
+
+    </DockPanel>
+</Window>

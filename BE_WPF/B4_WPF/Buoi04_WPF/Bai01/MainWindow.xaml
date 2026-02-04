@@ -1,0 +1,46 @@
+﻿<Window x:Class="Bai01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bai01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <!--Menu-->
+        <Menu DockPanel.Dock="Top">
+            <!--Menu hệ thống-->
+            <MenuItem Header="Hệ thống">
+                <MenuItem Header="Đăng nhập"/>
+                <MenuItem Header="Thoát"/>
+            </MenuItem>
+
+            <!--Menu danh mục-->
+            <MenuItem Header="Danh mục">
+                <MenuItem Header="Nhân viên"
+                          Click="btn_employee"/>
+                <MenuItem Header="Phòng ban"
+                          Click="btn_department"/>
+            </MenuItem>
+        </Menu>
+        
+        <!--ToolBar Tray-->
+        <ToolBarTray DockPanel.Dock="Top"
+                     Orientation="Horizontal"
+                     >
+            <ToolBar>
+
+                <Button Content="Add"/>
+                <Button Content="Delete"/>
+                <Button Content="Exit"/>
+            </ToolBar>
+        </ToolBarTray>
+
+        
+        <!-- Nội dung chính -->
+        <ContentControl x:Name="MainControl">
+            
+        </ContentControl>
+
+    </DockPanel>
+</Window>
