@@ -5,85 +5,195 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:vm="clr-namespace:Bai4.ViewModels"
         mc:Ignorable="d"
-        Title="Bai 4 - MVVM"
-        Height="520"
-        Width="900">
+        Title="Quan ly sinh vien"
+        Height="640"
+        Width="980">
     <Window.DataContext>
-        <vm:StudentViewModel />
+        <vm:MainViewModel />
     </Window.DataContext>
 
-    <Grid Margin="16">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
+    <Grid Margin="10">
+        <TabControl>
+            <TabItem Header="Danh sach sinh vien">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0"
-                   Margin="0,0,0,16"
-                   FontSize="24"
-                   FontWeight="Bold"
-                   Text="Quan ly sinh vien (MVVM)" />
+                    <TextBlock Grid.Row="0"
+                               Margin="0,0,0,12"
+                               HorizontalAlignment="Center"
+                               FontSize="30"
+                               FontWeight="Bold"
+                               Text="QUAN LY SINH VIEN" />
 
-        <Grid Grid.Row="1" Margin="0,0,0,12">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="230" />
-                <ColumnDefinition Width="120" />
-                <ColumnDefinition Width="260" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
+                    <Border Grid.Row="1"
+                            Padding="12"
+                            BorderBrush="#D4D4D4"
+                            BorderThickness="1"
+                            Margin="0,0,0,10">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="260" />
+                                <ColumnDefinition Width="120" />
+                                <ColumnDefinition Width="140" />
+                                <ColumnDefinition Width="220" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
 
-            <StackPanel Grid.Column="0" Margin="0,0,10,0">
-                <TextBlock Margin="0,0,0,4" FontWeight="SemiBold" Text="Ho ten" />
-                <TextBox Text="{Binding NewName, UpdateSourceTrigger=PropertyChanged}" />
-            </StackPanel>
+                            <StackPanel Grid.Column="0" Grid.Row="0" Margin="0,0,10,8">
+                                <TextBlock Margin="0,0,0,4" FontWeight="SemiBold" Text="Ho va ten:" />
+                                <TextBox Height="28" Text="{Binding InputHoTen, UpdateSourceTrigger=PropertyChanged}" />
+                            </StackPanel>
 
-            <StackPanel Grid.Column="1" Margin="0,0,10,0">
-                <TextBlock Margin="0,0,0,4" FontWeight="SemiBold" Text="Tuoi" />
-                <TextBox Text="{Binding NewAge, UpdateSourceTrigger=PropertyChanged}" />
-            </StackPanel>
+                            <StackPanel Grid.Column="1" Grid.Row="0" Margin="0,0,10,8">
+                                <TextBlock Margin="0,0,0,4" FontWeight="SemiBold" Text="Tuoi:" />
+                                <TextBox Height="28" Text="{Binding InputTuoi, UpdateSourceTrigger=PropertyChanged}" />
+                            </StackPanel>
 
-            <StackPanel Grid.Column="2">
-                <TextBlock Margin="0,0,0,4" FontWeight="SemiBold" Text="Tim kiem theo ten" />
-                <TextBox Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" />
-            </StackPanel>
-        </Grid>
+                            <StackPanel Grid.Column="2" Grid.Row="0" Margin="0,0,10,8">
+                                <TextBlock Margin="0,0,0,4" FontWeight="SemiBold" Text="Gioi tinh:" />
+                                <StackPanel Orientation="Horizontal" Margin="0,6,0,0">
+                                    <RadioButton Content="Nam"
+                                                 GroupName="Gender"
+                                                 IsChecked="{Binding IsNam, Mode=TwoWay}" />
+                                    <RadioButton Content="Nu"
+                                                 GroupName="Gender"
+                                                 Margin="14,0,0,0"
+                                                 IsChecked="{Binding IsNu, Mode=TwoWay}" />
+                                </StackPanel>
+                            </StackPanel>
 
-        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,0,0,12">
-            <Button Width="120"
-                    Margin="0,0,8,0"
-                    Content="Them/Sua"
-                    Command="{Binding AddStudentCommand}" />
-            <Button Width="120"
-                    Margin="0,0,8,0"
-                    Content="Xoa"
-                    Command="{Binding DeleteStudentCommand}" />
-            <Button Width="120"
-                    Margin="0,0,8,0"
-                    Content="Lam moi"
-                    Command="{Binding ClearInputCommand}" />
-            <Button Width="150"
-                    Content="Dao chieu sap xep tuoi"
-                    Command="{Binding ToggleSortByAgeCommand}" />
-        </StackPanel>
+                            <StackPanel Grid.Column="3" Grid.Row="0" Margin="0,0,10,8">
+                                <TextBlock Margin="0,0,0,4" FontWeight="SemiBold" Text="Thanh pho:" />
+                                <ComboBox Height="28"
+                                          ItemsSource="{Binding ThanhPhoOptions}"
+                                          SelectedItem="{Binding InputThanhPho, Mode=TwoWay}" />
+                            </StackPanel>
 
-        <Border Grid.Row="3" BorderBrush="#D3D3D3" BorderThickness="1" CornerRadius="4" Padding="4">
-            <ListView ItemsSource="{Binding StudentsView}"
-                      SelectedItem="{Binding SelectedStudent, Mode=TwoWay}">
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn Width="500" Header="Ho ten" DisplayMemberBinding="{Binding Name}" />
-                        <GridViewColumn Width="120" Header="Tuoi" DisplayMemberBinding="{Binding Age}" />
-                    </GridView>
-                </ListView.View>
-            </ListView>
-        </Border>
+                            <StackPanel Grid.Column="0"
+                                        Grid.Row="1"
+                                        Grid.ColumnSpan="5"
+                                        Orientation="Horizontal"
+                                        Margin="0,4,0,0">
+                                <Button Width="90"
+                                        Height="30"
+                                        Margin="0,0,8,0"
+                                        Content="Them"
+                                        Command="{Binding AddCommand}" />
+                                <Button Width="90"
+                                        Height="30"
+                                        Margin="0,0,8,0"
+                                        Content="Sua"
+                                        Command="{Binding UpdateCommand}" />
+                                <Button Width="90"
+                                        Height="30"
+                                        Margin="0,0,8,0"
+                                        Content="Xoa"
+                                        Command="{Binding DeleteCommand}" />
+                                <Button Width="90"
+                                        Height="30"
+                                        Margin="0,0,8,0"
+                                        Content="Undo"
+                                        Command="{Binding UndoCommand}" />
+                                <Button Width="90"
+                                        Height="30"
+                                        Content="Redo"
+                                        Command="{Binding RedoCommand}" />
+                            </StackPanel>
+                        </Grid>
+                    </Border>
 
-        <TextBlock Grid.Row="4"
-                   Margin="0,12,0,0"
-                   FontWeight="SemiBold"
-                   Text="{Binding StudentCount, StringFormat=Tong so sinh vien: {0}}" />
+                    <Border Grid.Row="2"
+                            Padding="8"
+                            BorderBrush="#D4D4D4"
+                            BorderThickness="1"
+                            Margin="0,0,0,10">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBlock VerticalAlignment="Center" FontWeight="SemiBold" Text="Tim theo ten:" />
+                                <TextBox Width="120"
+                                         Height="26"
+                                         Margin="8,0,0,0"
+                                         Text="{Binding FilterText, UpdateSourceTrigger=PropertyChanged}" />
+                            </StackPanel>
+
+                            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left">
+                                <TextBlock Margin="0,0,14,0"
+                                           FontWeight="Bold"
+                                           Text="{Binding TongSo, StringFormat=Tong: {0}}" />
+                                <TextBlock Margin="0,0,14,0"
+                                           FontWeight="Bold"
+                                           Text="{Binding SoNam, StringFormat=Nam: {0}}" />
+                                <TextBlock FontWeight="Bold"
+                                           Text="{Binding SoNu, StringFormat=Nu: {0}}" />
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+
+                    <Border Grid.Row="3"
+                            Padding="8"
+                            BorderBrush="#D4D4D4"
+                            BorderThickness="1">
+                        <ListView ItemsSource="{Binding StudentsView}"
+                                  SelectedItem="{Binding SelectedStudent, Mode=TwoWay}">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Width="260" Header="Ho ten" DisplayMemberBinding="{Binding HoTen}" />
+                                    <GridViewColumn Width="90" Header="Tuoi" DisplayMemberBinding="{Binding Tuoi}" />
+                                    <GridViewColumn Width="120" Header="Gioi tinh" DisplayMemberBinding="{Binding GioiTinh}" />
+                                    <GridViewColumn Width="180" Header="Thanh pho" DisplayMemberBinding="{Binding ThanhPho}" />
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Border>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Luu / Load file">
+                <Grid Margin="12">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0"
+                               Margin="0,0,0,20"
+                               FontSize="28"
+                               FontWeight="Bold"
+                               Text="LUU - TAI DU LIEU SINH VIEN" />
+
+                    <StackPanel Grid.Row="1" Orientation="Horizontal">
+                        <Button Width="150"
+                                Height="34"
+                                Margin="0,0,14,0"
+                                Content="Luu file JSON"
+                                Click="Save_Click" />
+                        <Button Width="150"
+                                Height="34"
+                                Content="Load file JSON"
+                                Click="Load_Click" />
+                    </StackPanel>
+
+                    <TextBlock Grid.Row="2"
+                               Margin="0,18,0,0"
+                               Foreground="#666666"
+                               Text="Du lieu sinh vien se duoc luu va doc tu file JSON (data.json)." />
+                </Grid>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
