@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="B7_MVVM.Views.DanhSachHoaDonView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             Background="White">
+    <Grid Margin="10" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <GroupBox Header="Danh sách hóa đơn" Margin="0,0,0,10">
+            <ListView ItemsSource="{Binding DanhSachHoaDon}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="STT" DisplayMemberBinding="{Binding STT}" Width="50"/>
+                        <GridViewColumn Header="Khách hàng" DisplayMemberBinding="{Binding KhachHang.TenKhachHang}" Width="150"/>
+                        <GridViewColumn Header="Sinh viên" DisplayMemberBinding="{Binding SinhVienHienThi}" Width="80"/>
+                        <GridViewColumn Header="Nước uống" DisplayMemberBinding="{Binding NuocUongHienThi}" Width="180"/>
+                        <GridViewColumn Header="Thức ăn" DisplayMemberBinding="{Binding ThucAnHienThi}" Width="180"/>
+                        <GridViewColumn Header="Tổng tiền" DisplayMemberBinding="{Binding TongTienThanhToan, StringFormat={}{0:N0}}" Width="100"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </GroupBox>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Tổng khách hàng" VerticalAlignment="Center"/>
+            <TextBox Grid.Column="1" Text="{Binding TongKhachHang}" IsReadOnly="True" Margin="5,0,0,0"/>
+
+            <TextBlock Grid.Column="3" Text="Tổng tiền thanh toán" VerticalAlignment="Center"/>
+            <TextBox Grid.Column="4" Text="{Binding TongTienThanhToan, StringFormat={}{0:N0}}" IsReadOnly="True" Margin="5,0,0,0"/>
+
+            <StackPanel Grid.Column="5" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="Load" Width="80" Margin="0,0,10,0" Command="{Binding LoadCommand}"/>
+                <Button Content="Thống kê" Width="80" Command="{Binding ThongKeCommand}"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

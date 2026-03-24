@@ -1,0 +1,38 @@
+﻿<Window x:Class="B7_MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:B7_MVVM.ViewModels"
+        xmlns:views="clr-namespace:B7_MVVM.Views"
+        mc:Ignorable="d"
+        Title="QLyQuanCafe"
+        Height="760"
+        Width="1200"
+        WindowStartupLocation="CenterScreen"
+        Background="WhiteSmoke">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type viewModels:LapHoaDonViewModel}">
+            <views:LapHoaDonView />
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewModels:DanhSachHoaDonViewModel}">
+            <views:DanhSachHoaDonView />
+        </DataTemplate>
+    </Window.Resources>
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Hệ thống">
+                <MenuItem Header="Thoát" Command="{Binding ThoatUngDungCommand}" />
+            </MenuItem>
+
+            <MenuItem Header="Bán hàng">
+                <MenuItem Header="Lập hóa đơn" Command="{Binding MoLapHoaDonCommand}" />
+                <MenuItem Header="Thống kê hóa đơn" Command="{Binding MoDanhSachHoaDonCommand}" />
+            </MenuItem>
+        </Menu>
+
+        <ContentControl Content="{Binding CurrentViewModel}" />
+    </DockPanel>
+</Window>
